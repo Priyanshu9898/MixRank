@@ -1,4 +1,5 @@
 import DataTeamsSection from "@/components/Home/CompanyIcons";
+import DataSections from "@/components/Home/DataSection";
 import HeroSection from "@/components/Home/HeroSection";
 import Navbar from "@/components/Navbar/Navbar";
 import Image from "next/image";
@@ -27,6 +28,7 @@ const page = () => {
       
         
       <DataTeamsSection />
+      <DataSections />
     </>
   );
 };
