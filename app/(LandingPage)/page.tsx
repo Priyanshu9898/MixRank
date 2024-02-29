@@ -1,7 +1,12 @@
 import DataTeamsSection from "@/components/Home/CompanyIcons";
+import DataMetricsGrid from "@/components/Home/DataMetricsGrid";
 import DataSections from "@/components/Home/DataSection";
+import HelpSections from "@/components/Home/HelpSections";
 import HeroSection from "@/components/Home/HeroSection";
+import HeroSection2 from "@/components/Home/HeroSection2";
+import Testimonials from "@/components/Home/Testimonials";
 import Navbar from "@/components/Navbar/Navbar";
+import Footer from "@/components/shared/Footer";
 import Image from "next/image";
 
 import React from "react";
@@ -29,6 +34,11 @@ const page = () => {
         
       <DataTeamsSection />
       <DataSections />
+      <DataMetricsGrid />
+      {/* <HelpSections /> */}
+      <HeroSection2 />
+      <Testimonials />
+      <Footer />
     </>
   );
 };

@@ -50,7 +50,7 @@ const Card: React.FC<CardProps> = ({ section }) => {
         </blockquote>
         <Link
           href={section.linkUrl}
-          className="text-white hover:underline flex items-center space-x-2 mt-4"
+          className="text-white underline decoration-[#f44033] underline-offset-8  flex items-center space-x-2 mt-4"
         >
           <span>{section.linkText}</span>
           <svg
